@@ -1,0 +1,30 @@
+[
+	{ "keys": ["alt+o"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+	{ "keys": ["alt+2"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["shift+space"], "command": "auto_complete" },
+	{ "keys": ["ctrl+v"], "command": "paste_and_indent" },
+	{ "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys": ["ctrl+w"], "command": "find_under_expand" },
+	{ "keys": ["alt+c"], "command": "toggle_side_bar" },
+	{ "keys": ["ctrl+shift+s"], "command": "save_all" },
+	{ "keys": ["ctrl+g"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+	{ "keys": ["f12"], "command": "side_bar_files_open_with",
+	    "args": {
+	       "paths": [],
+	       "application": "F:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe",
+	       "extensions":".*" //any file with extension
+		}
+	},
+	{ "keys": ["ctrl+f11"], "command": "sublime_bookmark", "args" : { "type" : "add"  } },
+	{ "keys": ["f12"], "command": "sublime_bookmark", "args" : { "type" : "goto"  } },
+	{ "keys": ["f11"], "command": "sublime_bookmark", "args" : { "type" : "toggle_line"  } },
+	{ "keys": ["f3"], "command": "find_next"},
+	{ "keys": ["alt+f"], "command": "find_under_expand_skip" },
+    {
+        "keys": ["ctrl+t"], "command": "js_format",
+        "context": [{"key": "selector", "operator": "equal", "operand": "source.js,source.json"}]
+    },
+    { "keys": ["ctrl+alt+left"], "command": "jump_back" },
+    { "keys": ["ctrl+alt+right"], "command": "jump_forward" },
+    { "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" }
+]

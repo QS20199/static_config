@@ -1,0 +1,47 @@
+// 将键绑定放入此文件中以覆盖默认值
+[
+	{
+		"key": "ctrl+w",
+		"command": "editor.action.addSelectionToNextFindMatch",
+		"when": "editorFocus"
+	},
+	{
+		"key": "ctrl+g",
+		"command": "workbench.action.quickOpen"
+	},
+	{
+		"key": "ctrl+r",
+		"command": "workbench.action.gotoSymbol"
+	},
+	{
+		"key": "alt+o",
+		"command": "workbench.action.showCommands"
+	},
+	{
+		"key": "ctrl+d",
+		"command": "editor.action.deleteLines",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "alt+2",
+		"command": "editor.action.commentLine",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+t",
+		"command": "editor.action.formatDocument",
+		"when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+e",
+		"command": "workbench.action.files.revealActiveFileInWindows"
+	},
+	{
+		"key": "alt+q",
+		"command": "workbench.action.navigateBack"
+	},
+	{
+		"key": "alt+e",
+		"command": "workbench.action.navigateForward"
+	}
+]

@@ -1,0 +1,15 @@
+// 将设置放入此文件中以覆盖默认设置
+{
+    "http.proxy": "http://dev-proxy.oa.com:8080",
+    "editor.fontFamily": "微软雅黑",
+    "editor.fontSize": 18,
+    "window.zoomLevel": 0,
+    "editor.renderWhitespace": "all",
+    "workbench.activityBar.visible": true,
+    "files.autoSave": "off",
+    "workbench.iconTheme": "vs-minimal",
+    "editor.minimap.enabled": true,
+    "editor.renderControlCharacters": false,
+    "workbench.statusBar.visible": true,
+    "java.errors.incompleteClasspath.severity": "ignore"
+}
